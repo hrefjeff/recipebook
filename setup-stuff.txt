@@ -3,3 +3,10 @@ I used a virtual machine to develop this application. Ubuntu 20 on virtualbox
 Things I had to install:
 
 1. sudo apt-get install python3-pip
+2. sudo apt-get install python3-venv
+
+In this dir run commands to set up containers and DB:
+
+1. docker-compose up -d --build
+2. docker-compose exec web python manage.py migrate
+3. docker-compose exec web python manage.py createsuperuser
