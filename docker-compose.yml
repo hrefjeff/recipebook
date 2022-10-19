@@ -6,6 +6,9 @@ services:
     ports:
       - "8000:8000"
     command: python manage.py runserver 0.0.0.0:8000
+    environment:
+      - DEBUG=1
+      - ALLOWED_HOSTS=127.0.0.1,localhost
     volumes:
       - .:/code
     depends_on:
