@@ -1,0 +1,5 @@
+I used a virtual machine to develop this application. Ubuntu 20 on virtualbox
+
+Things I had to install:
+
+1. sudo apt-get install python3-pip
