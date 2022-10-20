@@ -10,3 +10,9 @@ In this dir run commands to set up containers and DB:
 1. docker-compose up -d --build
 2. docker-compose exec web python manage.py migrate
 3. docker-compose exec web python manage.py createsuperuser
+
+https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html 
+
+geeksforgeeks.org/how-to-create-an-app-in-django/
+
+learndjango.com/tutorials/django-docker-and-postgresql-tutorial
